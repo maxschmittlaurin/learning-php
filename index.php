@@ -8,12 +8,11 @@
 <body>
 <?php
 
-    $cars = array("BMW", "Audi", "Mercedes");
-    $cars2 = array("Volve", "Chevy", "Volkswagen");
+    include 'header.php';
 
-    $cars = array_merge($cars, $cars2);
+    echo "<h1>Welcome !</h1>";
 
-    print_r($cars);
+    include 'footer.php';
 ?>
 </body>
 </html>
